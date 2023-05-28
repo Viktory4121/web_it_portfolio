@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EEEFF1;
+}
+
+.roboto {
+    font-family: 'Roboto';
+}
+
+.revalia_logo {
+    font-family: 'Revalia';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #34547A;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.total-center {
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* ----------------------------------------------------------- */
+/* Хедер + меню */
+
+
+.index_header {
+    padding: 2vw;
+    justify-content: space-around;
+    background: #E5E5E5;
+}
+
+.index_header a {
+    text-decoration: none; /* убирает подчёркивание у ссылок */
+}
+
+.menu ul {
+    flex-direction: row;
+    align-items: center;
+    list-style: none; /* убирает маркеры списка */
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+}
+
+.menu li:hover {
+    color: #34547A;
+    cursor: pointer;
+}
+
+.menu-item + .menu-item {
+    margin-left: 3vw;
+}
+
+
+
+/* ----------------------------------------------------------- */
+/* первый блок */
+
+.content-info{
+    background: #E5E5E5;
+
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding: 6vw 0;
+}
+
+.content-info img {
+    width: 350px;
+}
+
+.content-info-text {
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.content-info-text h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+
+    color: #000000;
+}
+
+
+/* ----------------------------------------------------------- */
+/* общие стили на параграф */
+
+.main-index p {
+    max-width: 540px;
+    margin: 2vw 0;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #727272;
+}
+
+
+
+/* ----------------------------------------------------------- */
+/* общие стили на кнопку */
+
+.main-button {
+    max-width: 250px;
+    padding: 25px 41px;
+    background: #34547A;
+    border: none;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
+.main-button:hover {
+    background-color: #53749d;
+    transition: background-color .2s;
+    cursor: pointer;
+}
+
+
+
+/* ----------------------------------------------------------- */
+/* блок о себе */
+
+.about-me {
+    padding: 4.69vw 0;
+    flex-direction: column;
+}
+
+.about-me p {
+    text-align: center;
+}
+
+
+
+/* ----------------------------------------------------------- */
+/* общие стили на заголовок второго уровня */
+
+h2{
+    margin-bottom: 2vw;
+
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    /* text-align: center; */
+
+    color: #000000;
+}
+
+
+
+/* ----------------------------------------------------------- */
+/* проекты */
+
+.projects-info {
+    padding: 5vw 0;
+    background: #34547A;
+    justify-content: center;
+}
+
+.project-items {
+    flex-direction: row;
+}
+
+.project-items + .project-items {
+    margin-left: 3vw;
+}
+
+.project-info-text {
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-left: 1vw;
+}
+
+.project-item-num {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.project-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+/* ----------------------------------------------------------- */
+/* навыки */
+
+.skills-info {
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding: 4vw 0;
+}
+
+.skills-items {
+    flex-direction: column;
+}
+
+.skills-items span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #727272;
+}
+
+.skills-items progress {
+    width: 445px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    /* background-color: #C4C4C4;
+    color: #34547A; */
+    /* border: 0;
+    border-radius: 0; */
+}
+
+.skills-info img {
+    max-width: 555px;
+}
+
+
+
+/* ----------------------------------------------------------- */
+/* работа */
+
+.work-video {
+    background: #E5E5E5;
+    flex-direction: column;
+    padding: 5vw 0;
+}
+
+.play-video img {
+    max-width: 1110px;
+}
