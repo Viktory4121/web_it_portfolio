@@ -236,7 +236,7 @@ h2{
 }
 
 .skills-items progress {
-    width: 445px;
+    width: 20vw;
     margin-top: 20px;
     margin-bottom: 30px;
 
@@ -261,10 +261,13 @@ h2{
     padding: 5vw 0;
 }
 
-.play-video img {
-    max-width: 1110px;
+.work-video p {
+    text-align: center;
 }
 
+.play-video img {
+    width: 50vw;
+}
 
 
 
@@ -273,8 +276,13 @@ h2{
 
 .company-photo {
     width: 100%;
-    flex-wrap: wrap;
     padding: 5vw 0;
+    flex-direction: column;
+}
+
+.company-photo-items {
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .company-item{
@@ -313,7 +321,6 @@ h2{
 /* инпуты */
 
 
-
 .input-info{
     flex-direction: column;
     padding: 5vw 0;
@@ -330,6 +337,9 @@ h2{
 }
 
 
+
+/* ----------------------------------------------------------- */
+/* футер */
 
 .footer {
     width: 100%;
