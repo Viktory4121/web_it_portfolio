@@ -299,11 +299,73 @@ h2{
     z-index: 1;
 }
 
-.company-label-item img:hover {
+/* .company-label-item img:hover {
     background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8));
     z-index: 2;
-}
+} */
 
 .company-label-item + .company-label-item {
     margin-left: 3vw;
+}
+
+
+/* ----------------------------------------------------------- */
+/* инпуты */
+
+
+
+.input-info{
+    flex-direction: column;
+    padding: 5vw 0;
+    background: #E5E5E5;
+}
+
+.input-text{
+    flex-direction: column;
+}
+
+.input-text p {
+    text-align: center;
+    margin-top: 0;
+}
+
+
+
+.footer {
+    width: 100%;
+    justify-content: space-around;
+
+    padding: 2vw 0;
+    background: #34547A;
+}
+
+.footer-info-text{
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.footer-name {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+
+    margin-bottom: 1vw;
+}
+
+.footer-rights a {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+    text-decoration: none; /* убирает подчёркивание у ссылок */
+}
+
+.footer-social {
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-social-item + .footer-social-item {
+    margin-left: 1vw;
 }
