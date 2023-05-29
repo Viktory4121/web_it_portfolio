@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+body{
     background: #EEEFF1;
 }
 
@@ -336,6 +336,37 @@ h2{
     margin-top: 0;
 }
 
+.input-forms {
+    width: 40%;
+}
+
+.input-col {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+}
+
+.input-forms input {
+    height: 50px;
+    width: 45%;
+}
+
+.input-forms textarea, .input-forms input {
+    border: 0;
+    padding: 18px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #5F5D5D;
+}
+
+.input-forms textarea {
+    width: 100%;
+    margin-bottom: 3vw;
+    height: 15vw;
+}
 
 
 /* ----------------------------------------------------------- */
