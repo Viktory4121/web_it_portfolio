@@ -54,6 +54,11 @@ body{
     flex-direction: row;
     align-items: center;
     list-style: none; /* убирает маркеры списка */
+}
+
+.menu-item button, .menu-item a, .menu-item li{
+    border: none;
+    background-color: #E5E5E5;
 
     font-weight: 400;
     font-size: 16px;
@@ -63,7 +68,7 @@ body{
     color: #000000;
 }
 
-.menu li:hover {
+.menu button:hover, .menu li:hover, .menu a:hover {
     color: #34547A;
     cursor: pointer;
 }

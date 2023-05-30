@@ -23,10 +23,10 @@
 
         <nav class="menu roboto flex">
             <ul class="flex">
-                <li class="menu-item">ГЛАВНАЯ</li>
-                <li class="menu-item">ОБ АВТОРЕ</li>
-                <li class="menu-item">РАБОТЫ</li>
-                <li class="menu-item">ПРОЦЕСС</li>
+                <li class="menu-item"><a href="#">ГЛАВНАЯ</a></li>
+                <li class="menu-item"><button id="button-about-me">ОБ АВТОРЕ</button></li>
+                <li class="menu-item"><button id="button-projects">РАБОТЫ</button></li>
+                <li class="menu-item"><button id="button-work-video">ПРОЦЕСС</button></li>
                 <li class="menu-item">КОНТАКТЫ</li>
             </ul>
         </nav>
@@ -41,16 +41,16 @@
             <div class="content-item content-info-text flex">
                 <h1>Дизайн и верстка</h1>
                 <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                <button class="main-button">НАПИСАТЬ МНЕ</button>
+                <button id="button-inputs" class="main-button">НАПИСАТЬ МНЕ</button>
             </div>
         </section>
 
-        <section class="about-me flex total-center">
+        <section id="tab-about-me" class="about-me flex total-center">
             <h2>Обо мне</h2>
             <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
         </section>
 
-        <section class="projects-info flex">
+        <section id="tab-projects" class="projects-info flex">
             <div class="project-items flex">
                 <img src="image/project.svg" alt="">
                 <div class="project-info-text flex">
@@ -128,7 +128,7 @@
             </div>
         </section>
 
-        <section class="work-video flex total-center">
+        <section id="tab-work-video" class="work-video flex total-center">
             <h2>Как я работаю</h2>
             <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
 
@@ -202,7 +202,7 @@
             </div>
         </section>
 
-        <section class="input-info flex total-center">
+        <section id="tab-inputs" class="input-info flex total-center">
             <div class="input-text flex total-center">
                 <h2>Хотите веб-сайт?</h2>
                 <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
@@ -235,5 +235,8 @@
             <img class="footer-social-item" src="image/vk.png" alt="">
         </div>
     </footer>
+
+
+    <script src="scripts/script_scroll.js"></script>
 </body>
 </html>
