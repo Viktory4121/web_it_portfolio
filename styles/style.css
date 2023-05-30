@@ -159,7 +159,7 @@ body{
     flex-direction: column;
 }
 
-.about-me p {
+.about-me p, .about-me h2 {
     text-align: center;
 }
 
@@ -271,7 +271,7 @@ h2{
     padding: 5vw 0;
 }
 
-.work-video p {
+.work-video p, .work-video h2 {
     text-align: center;
 }
 
@@ -353,6 +353,10 @@ h2{
     flex-direction: column;
     padding: 5vw 0;
     background: #E5E5E5;
+}
+
+.input-info h2 {
+    text-align: center;
 }
 
 .input-text{
