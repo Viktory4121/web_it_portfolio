@@ -235,15 +235,19 @@ h2{
     color: #727272;
 }
 
-.skills-items progress {
+.progress-bar{
     width: 20vw;
+    height: 5px;
+    background: #C4C4C4;
+
     margin-top: 20px;
     margin-bottom: 30px;
+}
 
-    /* background-color: #C4C4C4;
-    color: #34547A; */
-    /* border: 0;
-    border-radius: 0; */
+.progress-value {
+    width: 15vw;
+    height: 5px;
+    background: #34547A;
 }
 
 .skills-info img {
